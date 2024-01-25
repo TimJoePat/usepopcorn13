@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import StarRating from "./StarRating";
+import StarRating from "./StarRating.js";
 import { useMovies } from "./useMovies.js";
-import { useLocalStorageState } from "./useLocalStorageState";
+import { useLocalStorageState } from "./useLocalStorageState.js";
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
